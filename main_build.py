@@ -142,7 +142,7 @@ def rotate_z(vertex: Vertex, angle: int) -> tuple:
 
 pygame.init()
 DISPLAY = pygame.display.set_mode((1000, 1000))
-pygame.display.set_caption("3d Renderer")
+pygame.display.set_caption("3D Renderer")
 
 while True:
     fpsclock.tick(fps)
